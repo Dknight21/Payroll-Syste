@@ -1,0 +1,21 @@
+PAYROLL SYSTEM IN VB.NET
+
+**Admin Login Details**
+
+Username: admin
+Password: admin
+
+**User Login Details**
+
+Username: boy
+Password: play
+
+**How to Setup this software**
+
+Went to Payroll_System Folder --> Setup -->  Debug --> install setup.exe
+
+After installing went to This PC / My computer -->Local Disk C: --> Program File(x86) --> DKNV Folder --> Setup --> follow the video given to you
+
+** For any query **
+
+Contact to developer

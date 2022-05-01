@@ -1,0 +1,821 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Payroll_System
+</name>
+</assembly>
+<members>
+<member name="T:Payroll_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources._149071">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.calculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.clipboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.exchange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.img">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.img1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.login_icon_3048">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.login_security">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.Notepad_117597_640">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.Notepad_clipart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.pngegg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.rupees">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.user">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.userl_ogin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.WELCOME4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Payroll_System.My.Resources.Resources.wp2939993_login_wallpaper">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet.informationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet.informationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet.informationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSetTableAdapters.informationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database1DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database1DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet1.informationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet1.informationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet1.informationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet1TableAdapters.informationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database1DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet.Admin_logDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet.User_logDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet.Admin_logRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet.User_logRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet.Admin_logRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet.User_logRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSetTableAdapters.Admin_logTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSetTableAdapters.User_logTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database21DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database21DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database21DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSetTableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database21DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1.Admin_logDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1.User_logDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1.Admin_logRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1.User_logRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1.Admin_logRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1.User_logRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1TableAdapters.Admin_logTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1TableAdapters.User_logTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database21DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database21DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database21DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet1TableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database21DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2.Admin_logDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2.User_logDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2.Admin_logRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2.User_logRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2.Admin_logRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2.User_logRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2TableAdapters.Admin_logTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2TableAdapters.User_logTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database21DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database21DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database21DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database21DataSet2TableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database21DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database21DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet.informationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet.informationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet.informationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSetTableAdapters.informationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database9DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database9DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database9DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSetTableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database9DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet1.informationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet1.informationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet1.informationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet1TableAdapters.informationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database9DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database9DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database9DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet1TableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database9DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet2.informationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet2.informationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet2.informationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet2TableAdapters.informationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database9DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database9DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database9DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet2TableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database9DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet3.informationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet3.informationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet3.informationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet3TableAdapters.informationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database9DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database9DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database9DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet3TableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database9DataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet4.informationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet4.informationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet4.informationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet4TableAdapters.informationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Payroll_System.Database9DataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Payroll_System.Database9DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Payroll_System.Database9DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Payroll_System.Database9DataSet4TableAdapters.TableAdapterManager.UpdateAll(Payroll_System.Database9DataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Payroll_System.Database9DataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

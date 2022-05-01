@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F179CA8-70B2-4B53-9712-D6FD4EA7F53A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Payroll_System.My.MyApplication</StartupObject>
+    <RootNamespace>Payroll_System</RootNamespace>
+    <AssemblyName>Payroll_System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Payroll_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Payroll_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ad_dashboard.Designer.vb">
+      <DependentUpon>Ad_dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ad_dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database1DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database1DataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database21DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database21DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database21DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database21DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database21DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database21DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database9DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database9DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database9DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database9DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database9DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database9DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database9DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database9DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database9DataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database9DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_dashboard.Designer.vb">
+      <DependentUpon>Emp_dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Emp_dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalSuppressions.vb" />
+    <Compile Include="Log1.Designer.vb">
+      <DependentUpon>Log1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Log1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log2.Designer.vb">
+      <DependentUpon>Log2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Log2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Payment.Designer.vb">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register_emp.Designer.vb">
+      <DependentUpon>Register_emp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register_emp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reg_form.Designer.vb">
+      <DependentUpon>Reg_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reg_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_staff.Designer.vb">
+      <DependentUpon>Re_staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Re_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_emp.Designer.vb">
+      <DependentUpon>View_emp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View_emp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ad_dashboard.resx">
+      <DependentUpon>Ad_dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emp_dashboard.resx">
+      <DependentUpon>Emp_dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log1.resx">
+      <DependentUpon>Log1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log2.resx">
+      <DependentUpon>Log2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register_emp.resx">
+      <DependentUpon>Register_emp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reg_form.resx">
+      <DependentUpon>Reg_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_staff.resx">
+      <DependentUpon>Re_staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_emp.resx">
+      <DependentUpon>View_emp.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database1DataSet1.xsc">
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet1.xss">
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet11.xsc">
+      <DependentUpon>Database1DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet11.xss">
+      <DependentUpon>Database1DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Database21DataSet.xsc">
+      <DependentUpon>Database21DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database21DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database21DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database21DataSet.xss">
+      <DependentUpon>Database21DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database21DataSet1.xsc">
+      <DependentUpon>Database21DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database21DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database21DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database21DataSet1.xss">
+      <DependentUpon>Database21DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database21DataSet2.xsc">
+      <DependentUpon>Database21DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Database21DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database21DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database21DataSet2.xss">
+      <DependentUpon>Database21DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet.xsc">
+      <DependentUpon>Database9DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database9DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database9DataSet.xss">
+      <DependentUpon>Database9DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet1.xsc">
+      <DependentUpon>Database9DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database9DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database9DataSet1.xss">
+      <DependentUpon>Database9DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet2.xsc">
+      <DependentUpon>Database9DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database9DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database9DataSet2.xss">
+      <DependentUpon>Database9DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet3.xsc">
+      <DependentUpon>Database9DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database9DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database9DataSet3.xss">
+      <DependentUpon>Database9DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet4.xsc">
+      <DependentUpon>Database9DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Database9DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database9DataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database9DataSet4.xss">
+      <DependentUpon>Database9DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database21.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\rupees.png" />
+    <None Include="Resources\149071.png" />
+    <None Include="Resources\clipboard.png" />
+    <None Include="Resources\exchange.png" />
+    <None Include="Resources\userl_ogin.png" />
+    <None Include="Resources\pngegg.png" />
+    <None Include="Resources\login-icon-3048.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\Notepad-117597_640.png" />
+    <None Include="Resources\Notepad_clipart.png" />
+    <None Include="Resources\img1.jpg" />
+    <None Include="Resources\img.png" />
+    <None Include="Resources\login-security.jpg" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\wp2939993-login-wallpaper.jpg" />
+    <None Include="Resources\WELCOME4.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
